@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet" /> <!--passei o href para dentro do head e alterei o caminho, com isso o estilo carregou--> 
+    
+</head>
+<body>
+  
+
+<main id="container">
+  <form id="login_form">
+    <div id="form_header">
+      <h1>Login</h1>
+      <i id="mode_icon" class="fa-solid fa-moon"></i>
+    </div>
+    <div id="social_midia">
+      <a href="https://facebook.com/">
+        <img src="https://img.icons8.com/office/160/null/facebook-new.png" alt="Facebook Logo"/>
+      </a>
+      <a href="https://www.google.com/">
+        <img src="https://img.icons8.com/officel/160/null/google-logo.png"alt="Google Logo"/>
+      </a>
+      <a href="https://github.com/">
+        <img src="https://img.icons8.com/stickers/200/null/github.png"alt="Github Logo"/>
+      </a>
+    </div>
+    <div id="inputs">
+      <div class="input-box">
+        <label for="name">
+        Name
+          <div class="input-field">
+            <i class="fa-solid fa-user"></i>
+          <input type="text" id="name" name="name">
+          </label>
+      </div>
+      <div class="input-box">
+        <label for="email">
+        Email
+          <div class="input-field">
+            <i class="fa-solid fa-envelope"></i>
+          <input type="text" id="email" name="email">
+          </label>
+      </div>
+      <div class="input-box">
+        <label for="password">
+        Password
+          <div class="input-field">
+            <i class="fa-solid fa-key"></i>
+          <input type="password" id="password" name="password">
+          </label>
+      </div>
+      <div class="input-box">
+        <label for="Confirm Password">
+        Confirm Password
+          <div class="input-field">
+            <i class="fa-solid fa-key"></i>
+          <input type="Confirm Password" id="Confirm Password" name="Confirm Password">
+          </label>
+      </div>
+      <div id="forgot_password">
+        <a href="senha.html">
+          Esqueci minha senha
+        </a>
+    </div>
+      <div style="display: flex;">
+        <button type="submit" id="login_button">
+          Login
+        </button>
+        <div id="forgot_password">
+          <a href="cadastro.html">
+            Simular cadastro
+          </a>
+      </div>
+      </div>
+  </form>
+</main>
+</body>
+<script src="js/main.js"></script>
+<script src="js/functions.js"></script>
+
+</html>

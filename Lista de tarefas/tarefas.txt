@@ -1,0 +1,41 @@
+1) Nossa equipe desenvolveu o formulário, mas por algum motivo quando abrimos ele no navegador os estilos não estão carregando. 
+Identifique a causa e faça a correção do problema.
+
+2) Quando clicamos no botão login nada acontece, portanto adicione dentro do arquivo functions.js algumas funções na ação de login:
+
+    - Todos os campos são obrigatórios, valide isso no HTML e no JavaScript
+    - O campo nome precisa ter pelo menos nome e sobrenome se não houver informe ao usuário com um alerta em caso de erro.
+    - O campo e-mail precisa ser válido, informe ao usuário com um alerta em caso de erro.
+    - A senha e a confirmação de senha precisam ser iguais, informe ao usuário com um alerta em caso de erro.
+    - Se passar em todas as validação emitir um alerta com a mensagem "Os dados informados estão corretos..."
+
+3) O botão esqueci a senha não tem nenhuma ação, portanto:
+
+    - Desenvolva um formulário para recuperação de senha
+    - O campo e-mail precisa ser válido, informe ao usuário com um alerta em caso de erro.
+    - Se passar em todas as validação emitir um alerta com a mensagem "Solicitação recebida, por favor verifique sua caixa de e-mail"
+
+4) O botão "cadastro fake" não está funcionando, portanto:
+
+    - Direcione o link para a nava página chamada cadastro.html mantendo a mesma estrutura de formulários da tela de login.
+    - Adicione os campos no formulário de cadastro:
+        * Nome completo
+        * Data de nascimento
+        * E-mail
+        * CEP
+        * Endereço: Logradouro, Bairro, Cidade, Estado e País.
+        * Telefone Celular
+
+    - Adicione dois botẽos de ação: 
+        * Botão "Salvar" 
+        * Botão "Listar todos"
+
+    - Ao salvar valide os campos
+        * Todos os campos são obrigatórios, valide isso no HTML e no JavaScript
+        * O campo nome precisa ter pelo menos nome e sobrenome, se não houver informe ao usuário com um alerta em caso de erro.
+        * O campo data de nascimento precisa ser uma data válida, informe ao usuário com um alerta em caso de erro.
+        * O campo e-mail precisa ser válido, informe ao usuário com um alerta em caso de erro.
+        * Quando o CEP for preenchido o sistema deverá preencher automaticamente os campos de endereço utilizando a API https://viacep.com.br/ para consultar essa informação
+        * O telefone celular precisa ter código do país, código de área e nove digitos, informe ao usuário com um alerta em caso de erro.
+    - Ao salvar, caso as informações estejam corretas salve os dados dentro do localStorage do navegador.
+    - Ao clicar no botão listar todos os usuários, com um alerta, informe o nome, e-mail e telefone de todos os usuários que já foram cadastrados.

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link href="css/style.css" rel="stylesheet" /> <!--passei o href para debtro do head e alterei o caminho, com isso o estilo carregou--> 
+    
+</head>
+<body>
+  
+
+<main id="container">
+  <form id="login_form">
+    <div id="form_header">
+      <h1>Cadastro</h1>
+      <i id="mode_icon" class="fa-solid fa-moon"></i>
+    </div>
+    <div id="social_midia">
+      <a href="https://facebook.com/">
+        <img src="https://img.icons8.com/office/160/null/facebook-new.png" alt="Facebook Logo"/>
+      </a>
+      <a href="https://www.google.com/">
+        <img src="https://img.icons8.com/officel/160/null/google-logo.png"alt="Google Logo"/>
+      </a>
+      <a href="https://github.com/">
+        <img src="https://img.icons8.com/stickers/200/null/github.png"alt="Github Logo"/>
+      </a>
+    </div>
+    <div id="inputs">
+      <div class="input-box">
+        <label for="name">
+        Nome Completo
+          <div class="input-field">
+            <i class="fa-solid fa-user"></i>
+          <input type="text" id="nome" name="name">
+          </label>
+      </div>
+      <div class="input-box">
+        <label for="name">
+        Data de Nascimento
+          <div class="input-field">
+            <i class="fa-solid fa-user"></i>
+          <input type="date" id="data de nascimento" name="data de nascimento">
+          </label>
+      </div>
+      <div class="input-box">
+        <label for="email">
+        Email
+          <div class="input-field">
+            <i class="fa-solid fa-envelope"></i>
+          <input type="text" id="email" name="email">
+          </label>
+      </div>
+      <div class="input-box">
+        <label for="cep">
+        Cep
+          <div class="input-field">
+            <i class="fa-solid fa-envelope"></i>
+          <input type="text" id="cep" name="cep" maxlength="9">
+          </label>
+      </div>
+      <div class="input-box">
+        <label for="logradouro">
+        Logradouro
+          <div class="input-field">
+            <i class="fa-solid fa-envelope"></i>
+          <input type="text" id="logradouro" name="cep">
+          </label>
+      </div>
+      <div class="input-box">
+        <label for="bairro">
+        Bairro
+          <div class="input-field">
+            <i class="fa-solid fa-envelope"></i>
+          <input type="text" id="bairro" name="bairro">
+          </label>
+      </div>
+      <div class="input-box">
+        <label for="cidade">
+        Cidade
+          <div class="input-field">
+            <i class="fa-solid fa-envelope"></i>
+          <input type="text" id="cidade" name="cidade">
+          </label>
+      </div>
+      <div class="input-box">
+        <label for="estado">
+        Estado
+          <div class="input-field">
+            <i class="fa-solid fa-envelope"></i>
+          <input type="text" id="estado" name="estado">
+          </label>
+      </div>
+      <div class="input-box">
+        <label for="país">
+        País
+          <div class="input-field">
+            <i class="fa-solid fa-envelope"></i>
+          <input type="text" id="país" name="país">
+          </label>
+      </div>
+      <div class="input-box">
+        <label for="telefone">
+        Telefone celular
+          <div class="input-field">
+            <i class="fa-solid fa-envelope"></i>
+          <input type="text" id="telefone" name="telefone">
+          </label>
+      </div>
+              
+      <div class="input-box">
+        <label for="password">
+        Password
+          <div class="input-field">
+            <i class="fa-solid fa-key"></i>
+          <input type="password" id="password" name="password">
+          </label>
+      </div>
+      <div class="input-box">
+        <label for="Confirm Password">
+        Confirm Password
+          <div class="input-field">
+            <i class="fa-solid fa-key"></i>
+          <input type="Confirm Password" id="Confirm Password" name="Confirm Password">
+          </label>
+      </div>
+      
+      <div style="display: flex;">
+        <button type="submit" id="login_button">
+          Salvar
+        </button> 
+        <button type="submit" id="login_button">
+          Listar todos   
+        </button>        
+      </div>
+
+      
+  </form>
+</main>
+</body>
+<script src="js/main.js"></script>
+<script src="js/functions.js"></script>
+
+</html>

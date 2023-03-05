@@ -1,0 +1,25 @@
+<div>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum vulputate malesuada. Mauris ultrices leo vitae nisl mollis, nec finibus ligula accumsan. Vivamus rhoncus euismod erat a fringilla. In hac habitasse platea dictumst. Sed porta massa nec nisl mattis cursus.
+    <p>Valor da passagem: R$500.01 por pessoa</p>
+</div>
+<p>Valor da passagem 05/08: R$700.55 com bagagem</p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum vulputate malesuada. Mauris ultrices leo vitae nisl mollis, nec finibus ligula accumsan. Vivamus rhoncus euismod erat a fringilla. In hac habitasse platea dictumst. Sed porta massa nec nisl mattis cursus.
+<div>
+    <ul>
+        <li>
+            Valor da passagem 07/01: R$553.22 podendo ser parcelado
+        </li>
+        <li>
+            Valor da passagem 09/05: R$1024.55 à vista
+        </li>
+        <li>
+            Valor da passagem 15/06: R$125.99 apenas hoje
+        </li>
+        <li>
+            Valor da passagem 28/11: R$788.21 valor referenciado
+        </li>
+    </ul>
+</div>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum vulputate malesuada. Mauris ultrices leo vitae nisl mollis, nec finibus ligula accumsan. Vivamus rhoncus euismod erat a fringilla. In hac habitasse platea dictumst. Sed porta massa nec nisl mattis cursus.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum vulputate malesuada. Mauris ultrices leo vitae nisl mollis, nec finibus ligula accumsan. Vivamus rhoncus euismod erat a fringilla. In hac habitasse platea dictumst. Sed porta massa nec nisl mattis cursus.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum vulputate malesuada. Mauris ultrices leo vitae nisl mollis, nec finibus ligula accumsan. Vivamus rhoncus euismod erat a fringilla. In hac habitasse platea dictumst. Sed porta massa nec nisl mattis cursus.
